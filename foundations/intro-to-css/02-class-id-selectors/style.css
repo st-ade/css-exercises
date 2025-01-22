@@ -1,0 +1,20 @@
+.select-pink {
+    background-color: #f1acb5;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+    font-size: 18px;
+}
+
+.bigger {
+    font-size: 24px;
+}
+
+#big-blue {
+    color: #2a4dda;
+    font-size: 36px;
+}
+
+#green {
+    background-color: #69e46b;
+    font-size: 24px;
+    font-weight: bold;
+}
