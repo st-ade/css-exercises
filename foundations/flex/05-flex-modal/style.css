@@ -22,6 +22,45 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+/*set flex direction for all */
+.main {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+/*align icon top left */
+.left-column {
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+/*align main text*/
+.right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/*align header and close button*/
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 10px;
+}
+
+/*align continue, cancel buttons*/
+.buttons {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.header {
+  font-weight: 900;
+  font-size: 20px;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
